@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-openpowerlifting",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "openpowerlifting -- powerlifting competition results from the OpenPowerlifting project's public-domain results database.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-openpowerlifting": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "openpowerlifting"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-openpowerlifting.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/openpowerlifting",
   "pipeworx": {
-    "sourceHash": "v1-f9623b1e4c64ef1612c0d725473c9ee6882a1dd682e3d2474b596855521c5edc",
-    "sourceCommit": "71f5325b13bb0ea0de2f0f7207885962ec91a484"
+    "mode": "gateway",
+    "slug": "openpowerlifting",
+    "gatewaySlug": "openpowerlifting",
+    "sourceHash": "v1-501ac6bddbf82df8b1d3492b3a39b571ca67d76de553810164abda2f020ac0a5",
+    "sourceCommit": "b2c4383545bb35171d0ada2beb1c9c7168ea175e"
   }
 }

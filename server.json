@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/openpowerlifting",
   "title": "Openpowerlifting",
   "description": "openpowerlifting -- powerlifting competition results from the OpenPowerlifting project's…",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/openpowerlifting",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-openpowerlifting",
