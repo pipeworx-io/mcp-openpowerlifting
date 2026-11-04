@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-openpowerlifting",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "openpowerlifting -- powerlifting competition results from the OpenPowerlifting project's public-domain results database.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "openpowerlifting",
     "gatewaySlug": "openpowerlifting",
-    "sourceHash": "v1-501ac6bddbf82df8b1d3492b3a39b571ca67d76de553810164abda2f020ac0a5",
-    "sourceCommit": "b2c4383545bb35171d0ada2beb1c9c7168ea175e"
+    "sourceHash": "v1-2a33c9f9130872f328b6e7d2c66dcb567d1587a942a4d8d6fac79337cc25a5f8",
+    "sourceCommit": "243a06a6ca2d3b6075325f3b66a1468d0a2eb603"
   }
 }
